@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.section-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #707070;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #FF5959;
+    border: 0px;
+    font-family: 'Inter', sans-serif;
+    width: 160px;
+    padding: 16px 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* header styles */
+header {
+    text-align: center;
+    color: white;
+    background-image: url('../images/donation1.jpg');
+    background-size: cover;
+    padding: 174px 307px;
+}
+
+.donate-today .section-title {
+    text-align: center;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.header-description {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* donate today section styles */
+.donate-today {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.donate-today .section-description {
+    margin: 20px 375px 50px 375px;
+}
+
+.amount-container {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    margin-left: 338px;
+    margin-right: 338px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.amount-item {
+    height: 123px;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+}
+
+.amount-item > p {
+    color: #707070;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 43px 25px;
+}
+
+#amount {
+    color: #B3B3B3;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    border: 0px;
+}
+
+.donate-today .btn-primary {
+    margin-top: 30px;
+}
+
+/* Donate plan section */
+.donate-plan .section-title {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.donate-plan .section-description {
+    text-align: center;
+    margin: 20px 375px 50px 375px;
+}
+
+.donate-plan-container {
+    display: flex;
+    gap: 24px;
+    padding: 0px 157px 110px 157px;
+}
+
+.item {
+    padding: 54px 23px;
+    border-radius: 5px;
+}
+
+.item-title {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 23px;
+}
+
+.item-description {
+    color: #707070;
+    font-family: Poppins;
+}
+
+.food {
+    background-color: rgba(79, 157, 166, 0.10);
+}
+
+.shelter {
+    background-color: rgba(255, 89, 89, 0.10);
+}
+
+.education {
+    background-color: #FFF4D6;
+}
+
+/* depend on section styles */
+.depend-on {
+    padding: 0px 231px 90px 157px;
+}
+
+.depend-on-container {
+    display: flex;
+    gap: 72px;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+}
+
+.depend-on-donation .section-title {
+    margin-bottom: 20px;
+}
+
+.depend-on-donation .section-description {
+    margin-bottom: 30px;
+}
+
+.depend-on-donation .btn-primary {
+    width: 230px;
+}
+
+/* survive section styles */
+.survive {
+    padding: 0px 231px 90px 157px;
+}
+
+.survive-container {
+    display: flex;
+    gap: 72px;
+}
+
+.need-us-survive .section-title {
+    margin-bottom: 20px;
+}
+
+.need-us-survive .section-description {
+    margin-bottom: 30px;
+}
+
+.need-us-survive .btn-primary {
+    width: 230px;
+}
+
+/* update section styles */
+.update {
+    text-align: center;
+}
+
+.update .section-description {
+    margin: 20px 375px 50px 375px;
+}
+
+.email {
+    margin: 0px 315px 130px 315px;
+    padding: 76px;
+    background-color: #FFF4D6;
+    font-weight: 500px;
+}
+
+.email #input-email {
+    height: 48px;
+    border: 0px;
+    border-radius: 5px 0px 0px 5px; 
+    background-color: #D9D9D9;
+    padding-left: 17px;
+    width: 275px;
+}
+
+.subscribe {
+    height: 48px;
+    width: 157px;
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+    background: #FF5959;
+    color: white;
+}
+
+/* footer styles */
+footer {
+    text-align: center;
+    margin-top: 90px;
+    background-color: black;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+footer h4{
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Lobster', sans-serif;
+    color: #FF5959;
+    font-size: 36px;
+}
+
+footer p {
+    color: white;
+}
